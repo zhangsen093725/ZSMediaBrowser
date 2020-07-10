@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZSMediaBrowser'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZSMediaBrowser.'
+  s.summary          = '媒体浏览器'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+1. 图片预览
+2. 视频预览
+3. 音频预览
+4. 图片、视频、音频混合预览
+5. 双击缩放，捏合缩放，长按，单击，拖拽关闭
+6. 自定义Cell
+7. 自定义预览图层
                        DESC
 
   s.homepage         = 'https://github.com/zhangsen093725/ZSMediaBrowser'
