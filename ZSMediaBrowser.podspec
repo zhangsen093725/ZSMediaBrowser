@@ -22,21 +22,19 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/zhangsen093725/ZSMediaBrowser'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  
   s.author           = { 'zhangsen093725' => 'joshzhang@yntengyun.com' }
   s.source           = { :git => 'https://github.com/zhangsen093725/ZSMediaBrowser.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version    = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZSMediaBrowser/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZSMediaBrowser' => ['ZSMediaBrowser/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ZSMediaBrowser' => ['ZSMediaBrowser/Assets/*.xcassets']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ZSViewUtil/Player'
 end

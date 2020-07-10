@@ -1,0 +1,6 @@
+framework module ZSMediaBrowser {
+  umbrella header "ZSMediaBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'ZSMediaBrowser_Example' do
   pod 'ZSMediaBrowser', :path => '../'
-
+  pod 'Kingfisher'
+  pod 'ZSViewUtil/All'
   target 'ZSMediaBrowser_Tests' do
     inherit! :search_paths
 

@@ -1,0 +1,29 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - ZSMediaBrowser (0.1.0):
+    - ZSViewUtil/Player
+  - ZSViewUtil/All (0.5.7)
+  - ZSViewUtil/Player (0.5.7)
+
+DEPENDENCIES:
+  - Kingfisher
+  - ZSMediaBrowser (from `../`)
+  - ZSViewUtil/All
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - ZSViewUtil
+
+EXTERNAL SOURCES:
+  ZSMediaBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ZSMediaBrowser: 2dc5a860060d6be35d7b097ae21a03ecaf947683
+  ZSViewUtil: 0c96aaa2be923b080a1099386ac342dcc78ef492
+
+PODFILE CHECKSUM: c2769ef93eb89c4bbb02764c5854d9aae199bc0e
+
+COCOAPODS: 1.9.3

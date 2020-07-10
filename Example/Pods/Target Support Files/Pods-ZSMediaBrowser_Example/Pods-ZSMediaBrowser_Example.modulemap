@@ -1,0 +1,6 @@
+framework module Pods_ZSMediaBrowser_Example {
+  umbrella header "Pods-ZSMediaBrowser_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		310D612B2C86E5737D65C6EF /* Pods_ZSMediaBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF4DB1CFD7E388A01AD50C /* Pods_ZSMediaBrowser_Example.framework */; };
 		4004DEC6BED8079C8FCB3E39 /* Pods_ZSMediaBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D0543F25C5AA0937791451 /* Pods_ZSMediaBrowser_Tests.framework */; };
+		4E2DE00824B5D22A00F7A2D8 /* MediaPreviewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2DE00724B5D22A00F7A2D8 /* MediaPreviewDemoController.swift */; };
+		4EE121AC24B85B6F00A682A5 /* ZSMediaBrowserCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE121AB24B85B6F00A682A5 /* ZSMediaBrowserCustomView.swift */; };
+		4EE121AE24B85B7400A682A5 /* ZSMediaBrowserCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE121AD24B85B7400A682A5 /* ZSMediaBrowserCustome.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03272AF617EE7072AC60D6AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03272AF617EE7072AC60D6AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2B44B7A8F57D70E045876A42 /* Pods-ZSMediaBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSMediaBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZSMediaBrowser_Example/Pods-ZSMediaBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4E2DE00724B5D22A00F7A2D8 /* MediaPreviewDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPreviewDemoController.swift; sourceTree = "<group>"; };
+		4EE121AB24B85B6F00A682A5 /* ZSMediaBrowserCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSMediaBrowserCustomView.swift; sourceTree = "<group>"; };
+		4EE121AD24B85B7400A682A5 /* ZSMediaBrowserCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSMediaBrowserCustome.swift; sourceTree = "<group>"; };
 		54D0543F25C5AA0937791451 /* Pods_ZSMediaBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSMediaBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ZSMediaBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSMediaBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +47,10 @@
 		607FACE51AFB9204008FA782 /* ZSMediaBrowser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSMediaBrowser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7572D7CE714EAA7155FB6DEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7572D7CE714EAA7155FB6DEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		81AEAA3020F1A1A907EA243D /* Pods-ZSMediaBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSMediaBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZSMediaBrowser_Tests/Pods-ZSMediaBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9058C5C540EE5254FFD97BE0 /* Pods-ZSMediaBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSMediaBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZSMediaBrowser_Tests/Pods-ZSMediaBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9770A9A81311B83D97402849 /* ZSMediaBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZSMediaBrowser.podspec; path = ../ZSMediaBrowser.podspec; sourceTree = "<group>"; };
+		9770A9A81311B83D97402849 /* ZSMediaBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZSMediaBrowser.podspec; path = ../ZSMediaBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD071E2DB506D2F05F2DD4CE /* Pods-ZSMediaBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZSMediaBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-ZSMediaBrowser_Example/Pods-ZSMediaBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ADBF4DB1CFD7E388A01AD50C /* Pods_ZSMediaBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZSMediaBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +99,9 @@
 		607FACD21AFB9204008FA782 /* Example for ZSMediaBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				4EE121AB24B85B6F00A682A5 /* ZSMediaBrowserCustomView.swift */,
+				4EE121AD24B85B7400A682A5 /* ZSMediaBrowserCustome.swift */,
+				4E2DE00724B5D22A00F7A2D8 /* MediaPreviewDemoController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +156,6 @@
 				9058C5C540EE5254FFD97BE0 /* Pods-ZSMediaBrowser_Tests.debug.xcconfig */,
 				81AEAA3020F1A1A907EA243D /* Pods-ZSMediaBrowser_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,11 +300,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZSMediaBrowser_Example/Pods-ZSMediaBrowser_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ZSMediaBrowser/ZSMediaBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/ZSViewUtil/ZSViewUtil.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSMediaBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZSViewUtil.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,6 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				4EE121AC24B85B6F00A682A5 /* ZSMediaBrowserCustomView.swift in Sources */,
+				4EE121AE24B85B7400A682A5 /* ZSMediaBrowserCustome.swift in Sources */,
+				4E2DE00824B5D22A00F7A2D8 /* MediaPreviewDemoController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
